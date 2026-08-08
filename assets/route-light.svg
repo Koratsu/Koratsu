@@ -1,6 +1,6 @@
 <svg width="1200" height="330" viewBox="0 0 1200 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 <title id="title">How things usually go</title>
-<desc id="desc">A loose hand-drawn trail connecting a question, a scribble, a try, and a choice to keep or toss the idea.</desc>
+<desc id="desc">A loose hand-drawn trail connecting a question, a scribble, a try, and a choice to keep or leave the idea.</desc>
 <style>
   .ink{fill:#474640;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
   .muted{fill:#8f897f;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
@@ -12,7 +12,7 @@
 <rect width="1200" height="330" rx="18" fill="#f6f1e7"/>
 
 <text x="54" y="52" class="muted" font-size="14" letter-spacing="2">HOW IT USUALLY GOES</text>
-<text x="54" y="82" class="ink" font-size="20">notice  →  scribble  →  try  →  keep / toss</text>
+<text x="54" y="82" class="ink" font-size="20">notice  →  scribble  →  try  →  keep / leave</text>
 
 <path id="route" d="M92 206 C210 154 294 244 405 200 S605 150 704 203 S895 252 1092 183" class="line" stroke-dasharray="5 8"/>
 <path d="M92 222 C215 173 296 260 405 217 S605 169 704 219 S892 269 1092 201" class="faint" opacity=".55"/>
@@ -44,7 +44,7 @@
 <g transform="translate(928 150) rotate(2 80 52)">
   <rect width="170" height="96" rx="7" class="paper"/>
   <text x="18" y="30" class="muted" font-size="12">04</text>
-  <text x="18" y="55" class="ink" font-size="18">keep / toss</text>
+  <text x="18" y="55" class="ink" font-size="18">keep / leave</text>
   <path d="M21 76 L41 64 L59 76 L78 61 L97 75" class="faint"/>
 </g>
 
