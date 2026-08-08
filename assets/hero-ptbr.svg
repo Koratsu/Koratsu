@@ -1,0 +1,25 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg{fill:#0b1117}.panel{fill:#0f171f;stroke:#29443a}.grid{stroke:#183027;stroke-width:1}.muted{fill:#708078}.text{fill:#e6edf3}.green{fill:#58d6a5}.green2{fill:#1d513e}.line{stroke:#2f8f6d;stroke-width:1.5}.dash{stroke:#58d6a5;stroke-width:1.5;stroke-dasharray:7 9;animation:dash 7s linear infinite}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.blink{animation:blink 1.05s steps(1,end) infinite}.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.p2{animation-delay:.45s}.p3{animation-delay:.9s}.p4{animation-delay:1.35s}.scan{animation:scan 5.2s ease-in-out infinite}.enter1{animation:enter .55s ease-out .15s both}.enter2{animation:enter .55s ease-out .5s both}.enter3{animation:enter .55s ease-out .85s both}.enter4{animation:enter .55s ease-out 1.2s both}@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}@keyframes pulse{0%,100%{opacity:.55;transform:scale(.88)}50%{opacity:1;transform:scale(1.16)}}@keyframes dash{to{stroke-dashoffset:-128}}@keyframes scan{0%,100%{transform:translateX(-12px);opacity:.15}50%{transform:translateX(78px);opacity:.65}}@keyframes enter{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}@media (prefers-reduced-motion:reduce){.blink,.pulse,.dash,.scan,.enter1,.enter2,.enter3,.enter4{animation:none}}
+  </style>
+  <rect width="1200" height="300" rx="22" class="bg"/>
+  <g opacity=".65">
+    <path d="M0 50H1200M0 100H1200M0 150H1200M0 200H1200M0 250H1200" class="grid"/>
+    <path d="M50 0V300M100 0V300M150 0V300M200 0V300M250 0V300M300 0V300M350 0V300M400 0V300M450 0V300M500 0V300M550 0V300M600 0V300M650 0V300M700 0V300M750 0V300M800 0V300M850 0V300M900 0V300M950 0V300M1000 0V300M1050 0V300M1100 0V300M1150 0V300" class="grid"/>
+  </g>
+  <rect x="24" y="22" width="1152" height="256" rx="18" class="panel"/>
+  <circle cx="54" cy="52" r="6" fill="#ff5f56"/><circle cx="75" cy="52" r="6" fill="#ffbd2e"/><circle cx="96" cy="52" r="6" fill="#27c93f"/>
+  <text x="122" y="57" class="mono muted" font-size="14">pedro@github — console de sistemas</text>
+  <text x="52" y="118" class="sans text enter1" font-size="38" font-weight="650">PEDRO LOPES</text>
+  <text x="52" y="145" class="mono green enter2" font-size="15">FUNDADOR @ BRIX  /  PRODUTO + SOFTWARE + OPERAÇÕES</text>
+  <g class="enter3"><text x="52" y="188" class="mono green" font-size="16">$ construir</text><text x="190" y="188" class="mono text" font-size="16">sistemas úteis</text></g>
+  <g class="enter3"><text x="52" y="220" class="mono green" font-size="16">$ conectar</text><text x="190" y="220" class="mono text" font-size="16">decisões digitais → operações reais</text></g>
+  <g class="enter4"><text x="52" y="252" class="mono green" font-size="16">$ escalar</text><text x="190" y="252" class="mono text" font-size="16">produto → processo → dados → alavancagem</text><rect x="548" y="238" width="9" height="18" rx="1" class="green blink"/></g>
+  <path d="M706 58V248" stroke="#29443a"/>
+  <text x="744" y="57" class="mono muted" font-size="13">MAPA OPERACIONAL</text>
+  <path d="M758 83L866 67L972 96L1090 65" class="dash"/><path d="M758 83L812 151L862 224L992 219L1052 169L1128 131" class="line" opacity=".75"/><path d="M812 151L943 150L992 219" class="line" opacity=".55"/><path d="M972 96L1052 169" class="line" opacity=".55"/>
+  <circle cx="758" cy="83" r="8" class="green pulse"/><circle cx="866" cy="67" r="10" class="green p2 pulse"/><circle cx="972" cy="96" r="10" class="green p3 pulse"/><circle cx="1052" cy="169" r="8" class="green p4 pulse"/><circle cx="992" cy="219" r="10" class="green pulse p2"/><circle cx="812" cy="151" r="8" class="green pulse p3"/>
+  <text x="770" y="87" class="mono text" font-size="13">produto</text><text x="984" y="100" class="mono text" font-size="13">software</text><text x="820" y="155" class="mono text" font-size="13">dados</text><text x="1063" y="173" class="mono text" font-size="13">operações</text><text x="1004" y="223" class="mono text" font-size="13">negócio</text>
+  <rect x="744" y="246" width="386" height="18" rx="9" fill="#10271f"/><rect x="744" y="246" width="320" height="18" rx="9" class="green2 scan"/>
+  <text x="744" y="286" class="mono muted" font-size="12">STATUS: CONSTRUINDO  •  SINAL: ATIVO</text><circle cx="1127" cy="282" r="5" class="green pulse"/>
+</svg>
